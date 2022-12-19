@@ -17,10 +17,10 @@ Amazon EMR is the industry-leading cloud big data platform for processing vast a
 </details>
 
 <details>
-<summaryASG</summary>
+<summary>ASG</summary>
 <br>
  <details>
- <summary(ASG) is not terminating an unhealthy Amazon EC2 instance</summary>
+ <summary>(ASG) is not terminating an unhealthy Amazon EC2 instance</summary>
  <br>
   The health check grace period for the instance has not expired <br>
   The instance maybe in Impaired status - Amazon EC2 Auto Scaling does not immediately terminate instances with an Impaired status.<br>
