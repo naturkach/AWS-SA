@@ -33,23 +33,24 @@ RDS db instance, running as a multi-AZ deployment - performs synchronous data re
 makes it easy to add image and video analysis to your applications <br>
 you can identify objects, people, text, scenes, and activities in images and videos, as well as detect any inappropriate content. Amazon Rekognition also provides highly accurate facial analysis and facial search capabilities that you can use to detect, analyze, and compare faces for a wide variety of user verification, people counting
 <br>
-
+</details>
 <details>
 <summary>Guardduty</summary>
 Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed
 <br>
-
+</details>
 <details>
 <summary>Macie</summary>
 Macie is a data security service that uses machine learning (ML) and pattern matching to discover and help protect your sensitive data.
 <br>
-
+</details>
 <details>
 <summary>Inspector</summary>
 Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.
 <br>
-
+</details>
 <details>
+
 <summary>team</summary>
 <br>
 </details>
