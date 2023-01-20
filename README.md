@@ -19,6 +19,8 @@ Amazon EMR is the industry-leading cloud big data platform for processing vast a
   The health check grace period for the instance has not expired <br>
   The instance maybe in Impaired status - Amazon EC2 Auto Scaling does not immediately terminate instances with an Impaired status.<br>
   The instance has failed the ELB health check status - By default, Amazon EC2 Auto Scaling doesn't use the results of ELB health checks to determine an instance's health status when the group's health check configuration is set to EC2.<br>
+<br>You are billed for instances as soon as they are launched, including the time that they are not yet in service.
+<br>
  </details>
 </details>
 
