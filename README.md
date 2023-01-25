@@ -51,8 +51,8 @@ Macie is a data security service that uses machine learning (ML) and pattern mat
 Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.
 <br>
 </details>
-<details>
 
+<details>
 <summary>Amazon Comprehend</summary>
 <br>
 is a natural language processing (NLP) service that uses machine learning to find meaning and insights in text.
@@ -60,11 +60,13 @@ is a natural language processing (NLP) service that uses machine learning to fin
 You can use Amazon Comprehend to determine the sentiment of a document. For example, you can use sentiment analysis to determine the sentiments of comments on a blog posting or a transcribed call to determine if your users loved or hated your content. You can determine sentiment for documents in any of the primary languages supported by Amazon Comprehend. All documents in one job must be in the same language.
 </details>
 
+<details>
 <summary>Cognito</summary>
 <br>
  Cognito is just a service for user authentication and authorization
 </details>
 
+<details>
 <summary>AWS Backup </summary>
 <br>
  is a centralized backup service that makes it easy and cost-effective for you to backup your application data across AWS services in the AWS
@@ -73,6 +75,13 @@ WS Backup makes protecting your AWS storage volumes, databases, and file systems
 <br>A company needs to use Amazon Aurora as the Amazon RDS database engine of their web application. The Solutions Architect has been instructed to implement a 90-day backup retention policy
 </details>
 
+<details>
+<summary>AWS License Manager</summary>
+<br>
+is a service that makes it easier for you to manage your software licenses from software vendors (for example, Microsoft, SAP, Oracle, and IBM) centrally across AWS and your on-premises environments. 
+</details>
+
+<details>
 <summary>team</summary>
 <br>
 </details>
