@@ -115,7 +115,8 @@ Network Access Analyzer is a feature of VPC that reports on unintended access to
 <details>
 <summary>AWS Network Firewall</summary>
 <br>
-AWS Network Firewall is a stateful, managed, network firewall, and intrusion detection and prevention service for your virtual private cloud (VPC). With Network Firewall, you can filter traffic at the perimeter of your VPC. This includes traffic going to and coming from an internet gateway, NAT gateway, or over VPN or AWS Direct Connect.
+AWS Network Firewall is a stateful, managed, network firewall, and intrusion detection and prevention service for your virtual private cloud (VPC). 
+<br>With Network Firewall, you can filter traffic at the perimeter of your VPC. This includes traffic going to and coming from an internet gateway, NAT gateway, or over VPN or AWS Direct Connect.
 <br>
 You can use Network Firewall to monitor and protect your Amazon VPC traffic in a number of ways, including the following:
 
