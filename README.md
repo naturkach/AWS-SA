@@ -95,6 +95,14 @@ lifecycle policies
 Objects must be stored for at least 30 days in the current storage class before you can transition them to <b>STANDARD_IA or ONEZONE_IA</b>
 <br>
 This limitation does not apply to <b>INTELLIGENT_TIERING, GLACIER, and DEEP_ARCHIVE</b> storage class
+<br>
+ <b>Glacier Select</b> is incorrect because this is not a storage service. It is primarily used to run queries directly on data stored in Amazon Glacier, retrieving only the data you need out of your archives to use for analytics.
+</details>
+
+<details>
+<summary>AWS Glue</summary>
+<br>
+It is a fully managed extract, transform, and load (ETL) service that makes it easy for customers to prepare and load their data for analytics.
 </details>
 
 <details>
