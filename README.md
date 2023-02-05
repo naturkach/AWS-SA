@@ -82,9 +82,19 @@ is a service that makes it easier for you to manage your software licenses from 
 </details>
 
 <details>
-<summary>team</summary>
+<summary>Lambda</summary>
 <br>
 Lambda@Edge is a feature of Amazon CloudFront that lets you run code closer to users of your application, which improves performance and reduces latency. With Lambda@Edge, you don't have to provision or manage infrastructure in multiple locations around the world. You pay only for the compute time you consume 
+</details>
+
+<details>
+<summary>S3</summary>
+<br>
+lifecycle policies 
+<br>
+Objects must be stored for at least 30 days in the current storage class before you can transition them to <b>STANDARD_IA or ONEZONE_IA</b>
+<br>
+This limitation does not apply to <b>INTELLIGENT_TIERING, GLACIER, and DEEP_ARCHIVE</b> storage class
 </details>
 
 <details>
