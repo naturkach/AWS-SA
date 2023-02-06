@@ -136,6 +136,12 @@ AWS Transit Gateway also enables you to scale the IPsec VPN throughput with equa
 </details>
 
 <details>
+<summary>AWS AppSync</summary>
+<br>
+AWS AppSync is a serverless GraphQL and Pub/Sub API service that simplifies building modern web and mobile applications. It provides a robust, scalable GraphQL interface for application developers to combine data from multiple sources, including Amazon DynamoDB, AWS Lambda, and HTTP APIs.
+</details>
+
+<details>
 <summary>simple</summary>
 <br>
 </details>
