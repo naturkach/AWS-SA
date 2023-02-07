@@ -142,6 +142,24 @@ AWS AppSync is a serverless GraphQL and Pub/Sub API service that simplifies buil
 </details>
 
 <details>
+<summary>AWS CloudTrail</summary>
+<br>
+CloudTrail is primarily used to monitor and record the account activity across your AWS resources and not your web applications. You cannot use CloudTrail to capture the detailed information of all HTTP requests that go through your public-facing Application Load Balancer (ALB). CloudTrail can only track the resource changes made to your ALB, but not the actual IP traffic that goes through it.
+</details>
+
+<details>
+<summary>CloudWatch Container Insights</summary>
+<br>
+ The primary function of CloudWatch Container Insights is to collect, aggregate, and summarize metrics and logs from your containerized applications and microservices.
+</details>
+
+<details>
+<summary>Amazon CloudWatch Application Insights</summary>
+<br>
+Amazon CloudWatch Application Insights facilitates observability for your applications and underlying AWS resources. It helps you set up the best monitors for your application resources to continuously analyze data for signs of problems with your applications. Application Insights, which is powered by SageMaker and other AWS technologies, provides automated dashboards that show potential problems with monitored applications, which help you to quickly isolate ongoing issues with your applications and infrastructure. 
+</details>
+
+<details>
 <summary>simple</summary>
 <br>
 </details>
