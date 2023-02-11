@@ -181,6 +181,14 @@ A fully managed native Microsoft Windows file system with full support for the S
 </details>
 
 <details>
+<summary>Amazon Lex</summary>
+<br>
+ A service that can help you build conversational interfaces using voice and text.
+ <br>
+ Amazon Lex enables you to build applications using a speech or text interface powered by the same technology that powers Amazon Alexa. Amazon Lex provides the deep functionality and flexibility of natural language understanding (NLU) and automatic speech recognition (ASR), so you can build highly engaging user experiences with lifelike conversational interactions and create new categories of products.
+</details>
+
+<details>
 <summary>simple</summary>
 <br>
 </details>
