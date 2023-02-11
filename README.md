@@ -160,6 +160,27 @@ Amazon CloudWatch Application Insights facilitates observability for your applic
 </details>
 
 <details>
+<summary>Amazon FSx </summary>
+<br>
+Amazon FSx is a fully managed third-party file system solution. It uses SSD storage to provide fast performance with low latency.
+<details>
+<summary>Amazon FSx for Lustre</summary>
+<br>
+Amazon FSx for Lustre provides a high-performance file system optimized for fast processing of workloads such as machine learning, high performance computing (HPC), video processing, financial modeling, and electronic design automation (EDA). These workloads commonly require data to be presented via a fast and scalable file system interface and typically have data sets stored on long-term data stores like Amazon S3.
+<br>
+With Amazon FSx, you can launch and run a file system that provides sub-millisecond access to your data and allows you to read and write data at speeds of up to hundreds of gigabytes per second of throughput and millions of IOPS.
+<br>
+</details>
+
+<details>
+<summary>Amazon FSx for Windows File Server</summary>
+<br>
+</details>
+A fully managed native Microsoft Windows file system with full support for the SMB protocol, Windows NTFS, and Microsoft Active Directory (AD) integration.
+
+</details>
+
+<details>
 <summary>simple</summary>
 <br>
 </details>
