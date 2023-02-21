@@ -192,6 +192,23 @@ A fully managed native Microsoft Windows file system with full support for the S
 </details>
 
 <details>
+<summary>ElastiCache</summary>
+<br>
+<details>
+<summary>ElastiCache for Redis</summary>
+<br>
+Redis, which stands for Remote Dictionary Server, is a fast, open-source, in-memory key-value data store for use as a database, cache, message broker, and queue. Redis now delivers sub-millisecond response times enabling millions of requests per second for real-time applications in Gaming, Ad-Tech, Financial Services, Healthcare, and IoT. Redis is a popular choice for caching, session management, gaming, leaderboards, real-time analytics, geospatial, ride-hailing, chat/messaging, media streaming, and pub/sub apps.
+</details>
+
+<details>
+<summary>ElastiCache for Memcached</summary>
+<br>
+Memcached, a high-performance distributed memory cache service, is designed for simplicity while Redis offers a rich set of features that make it effective for a wide range of use cases. Memcached does not offer support for geospatial data.
+only one feature Memcached is better then Redis - it has multithreaded architecture
+</details>
+</details>
+
+<details>
 <summary>simple</summary>
 <br>
 </details>
