@@ -100,6 +100,13 @@ Objects must be stored for at least 30 days in the current storage class before 
 This limitation does not apply to <b>INTELLIGENT_TIERING, GLACIER, and DEEP_ARCHIVE</b> storage class
 <br>
  <b>Glacier Select</b> is incorrect because this is not a storage service. It is primarily used to run queries directly on data stored in Amazon Glacier, retrieving only the data you need out of your archives to use for analytics.
+ 
+ <br>
+When you configure your bucket as a static website, the website is available at the AWS Region-specific website endpoint of the bucket.
+Depending on your Region, your Amazon S3 website endpoints follow one of these two formats.
+- s3-website dash (-) Region ‐ http://bucket-name.s3-website.Region.amazonaws.com
+- s3-website dot (.) Region ‐ http://bucket-name.s3-website-Region.amazonaws.com
+ 
 </details>
 
 <details>
