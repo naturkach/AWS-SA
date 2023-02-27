@@ -216,6 +216,23 @@ only one feature Memcached is better then Redis - it has multithreaded architect
 </details>
 </details>
 
+<hr>
+<h2><b>security</b></h2>
+<br>
+<details>
+<summary> Service Control Policies</summary>
+<br>
+An AWS Organization is using Service Control Policies (SCP) for central control over the maximum available permissions for all accounts in their organization. 
+<br>
+
+ - SCPs do not affect service-linked role
+ - If user or role has an IAM permission policy that grants access to an action that is either not allowed or explicitly denied by the applicable SCPs, the user or role can't perform that action 
+ - SCPs affect all users and roles in attached accounts, including the root user
+</details>
+
+<hr>
+
+
 <details>
 <summary>simple</summary>
 <br>
