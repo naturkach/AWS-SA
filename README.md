@@ -108,6 +108,8 @@ Depending on your Region, your Amazon S3 website endpoints follow one of these t
 - s3-website dash (-) Region ‐ http://bucket-name.s3-website.Region.amazonaws.com
 - s3-website dot (.) Region ‐ http://bucket-name.s3-website-Region.amazonaws.com
  
+ <br><br>
+ Amazon S3 Transfer Acceleration can speed up content transfers to and from Amazon S3 by as much as 50-500% for long-distance transfer of larger objects. 
 </details>
 
 <details>
