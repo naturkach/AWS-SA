@@ -40,6 +40,7 @@ you can identify objects, people, text, scenes, and activities in images and vid
 </details>
 <details>
 <summary>Guardduty</summary>
+ <a href='https://aws.amazon.com/guardduty/'>https://aws.amazon.com/guardduty/</a><br>
 Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed
 <br>
 Amazon GuardDuty offers threat detection that enables you to continuously monitor and protect your AWS accounts, workloads, and data stored in Amazon S3. GuardDuty analyzes continuous streams of meta-data generated from your account and network activity found in AWS CloudTrail Events, Amazon VPC Flow Logs, and DNS Logs.
@@ -53,8 +54,10 @@ Macie is a data security service that uses machine learning (ML) and pattern mat
 
 <details>
 <summary>Inspector</summary>
+ <a href='https://aws.amazon.com/inspector/'>https://aws.amazon.com/inspector/</a><br>
 Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.
 <br>
+ Amazon Inspector security assessments help you check for unintended network accessibility of your Amazon EC2 instances and for vulnerabilities on those EC2 instances. Amazon Inspector assessments are offered to you as pre-defined rules packages mapped to common security best practices and vulnerability definitions.
 </details>
 
 <details>
