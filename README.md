@@ -28,6 +28,8 @@ Amazon EMR is the industry-leading cloud big data platform for processing vast a
 <summary>RDS</summary>
 <br>
 RDS db instance, running as a multi-AZ deployment - performs synchronous data replication
+<br>
+RDS custom (for Oracle) - you can customize your database and OS  
 </details>
 
 <details>
