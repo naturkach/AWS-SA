@@ -115,7 +115,13 @@ Depending on your Region, your Amazon S3 website endpoints follow one of these t
  
  <br><br>
  Amazon S3 Transfer Acceleration can speed up content transfers to and from Amazon S3 by as much as 50-500% for long-distance transfer of larger objects. 
+<br><br>
+How can Amazon S3 invoke actions based on file activity within a bucket?
+- Amazon S3 Event Notifications
+
 </details>
+
+
 
 <details>
 <summary>AWS Glue</summary>
