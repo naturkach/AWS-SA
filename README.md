@@ -245,6 +245,20 @@ An AWS Organization is using Service Control Policies (SCP) for central control 
 
 <hr>
 
+<h2><b>NETWORK</b></h2>
+<br>
+<details>
+<summary> VPC</summary>
+<br>
+An AWS Organization is using Service Control Policies (SCP) for central control over the maximum available permissions for all accounts in their organization. 
+<br>
+
+When using VPC Endpoints, what are the only two AWS services that have a Gateway Endpoint available?
+- Amazon S3 and DynamoDB These two services have a VPC Gateway Endpoint (remember it), all the other ones have an Interface endpoint (powered by Private Link - means a private IP).
+</details>
+
+<hr>
+
 
 <details>
 <summary>simple</summary>
