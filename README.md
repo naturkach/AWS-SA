@@ -261,6 +261,19 @@ When using VPC Endpoints, what are the only two AWS services that have a Gateway
 
 
 <details>
+<summary>AWS Control Tower</summary>
+<br>
+AWS Control Tower simply offers the easiest way to set up and govern a new, secure, multi-account AWS environment. This is not the most suitable service to use to securely share your resources across AWS accounts or within your Organization. You have to use AWS Resources Access Manager (RAM) instead.
+<br>
+</details>
+
+<details>
+<summary>AWS Resource Access Manager (RAM)</summary>
+<br>
+is a service that enables you to easily and securely share AWS resources with any AWS account or within your AWS Organization. You can share AWS Transit Gateways, Subnets, AWS License Manager configurations, and Amazon Route 53 Resolver rules resources with RAM.
+</details>
+
+<details>
 <summary>simple</summary>
 <br>
 </details>
