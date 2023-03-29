@@ -30,6 +30,10 @@ Amazon EMR is the industry-leading cloud big data platform for processing vast a
 RDS db instance, running as a multi-AZ deployment - performs synchronous data replication
 <br>
 RDS custom (for Oracle) - you can customize your database and OS  
+<br>
+<b>Aurora native function</b>
+You can invoke an AWS Lambda function from an Amazon Aurora MySQL-Compatible Edition DB cluster with a native function or a stored procedure. This approach can be useful when you want to integrate your database running on Aurora MySQL with other AWS services. For example, you might want to capture data changes whenever a row in a table is modified in your database.
+
 </details>
 
 <details>
