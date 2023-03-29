@@ -113,11 +113,19 @@ Depending on your Region, your Amazon S3 website endpoints follow one of these t
 - s3-website dash (-) Region ‐ http://bucket-name.s3-website.Region.amazonaws.com
 - s3-website dot (.) Region ‐ http://bucket-name.s3-website-Region.amazonaws.com
  
+ <br>
+<b>Amazon S3 access points</b> simplify data access for any AWS service or customer application that stores data in S3. Access points are named network endpoints that are attached to buckets that you can use to perform S3 object operations, such as GetObject and PutObject.<br>
+You can configure any access point to accept requests only from a virtual private cloud (VPC) to restrict Amazon S3 data access to a private network. You can also configure custom block public access settings for each access point.
  <br><br>
  Amazon S3 Transfer Acceleration can speed up content transfers to and from Amazon S3 by as much as 50-500% for long-distance transfer of larger objects. 
 <br><br>
+<hr>
+questions:
+<br>
 How can Amazon S3 invoke actions based on file activity within a bucket?
 - Amazon S3 Event Notifications
+
+
 
 </details>
 
