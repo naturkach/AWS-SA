@@ -250,8 +250,8 @@ only one feature Memcached is better then Redis - it has multithreaded architect
 An AWS Organization is using Service Control Policies (SCP) for central control over the maximum available permissions for all accounts in their organization. 
 <br>
 
- - SCPs do not affect service-linked role
- - If user or role has an IAM permission policy that grants access to an action that is either not allowed or explicitly denied by the applicable SCPs, the user or role can't perform that action 
+- SCPs do not affect service-linked role
+- If user or role has an IAM permission policy that grants access to an action that is either not allowed or explicitly denied by the applicable SCPs, the user or role can't perform that action 
  - SCPs affect all users and roles in attached accounts, including the root user
 </details>
 
@@ -272,7 +272,7 @@ When using VPC Endpoints, what are the only two AWS services that have a Gateway
 <details>
 <summary>AWS Global Accelerator</summary>
 <br>
-</details>
+
 AWS Global Accelerator is a network layer service that directs traffic to optimal endpoints over the AWS global network, this improves the availability and performance of your internet applications. It provides two static anycast IP addresses that act as a fixed entry point to your application endpoints in a single or multiple AWS Regions, such as your Application Load Balancers, Network Load Balancers, Elastic IP addresses or Amazon EC2 instances, in a single or in multiple AWS regions.
 <br>
 AWS Global Accelerator uses endpoint weights to determine the proportion of traffic that is directed to endpoints in an endpoint group, and traffic dials to control the percentage of traffic that is directed to an endpoint group (an AWS region where your application is deployed).
@@ -280,6 +280,16 @@ AWS Global Accelerator uses endpoint weights to determine the proportion of traf
 With AWS Global Accelerator, you can shift traffic gradually or all at once between the blue and the green environment and vice-versa without being subject to DNS caching on client devices and internet resolvers, traffic dials and endpoint weights changes are effective within seconds.
 <br>
 WS Global Accelerator always routes user traffic to the optimal endpoint based on performance, reacting instantly to changes in application health, your user’s location, and policies that you configure. Global Accelerator is a good fit for non-HTTP use cases, such as gaming (UDP), IoT (MQTT), or Voice over IP. 
+</details>
+
+<details>
+<summary>Route 53</summary>
+<br>
+You can use Route 53 to perform three main functions in any combination: domain registration, DNS routing, and health checking.
+
+- Geoproximity Routing - route traffic to your resources based on the geographic location of your users and your resources.
+- Geolocation Routing - lets you choose the resources that serve your traffic based on the geographic location of your users, meaning the location that DNS queries originate from.
+</details>
 <hr>
 
 
