@@ -318,6 +318,15 @@ is a service that enables you to easily and securely share AWS resources with an
 </details>
 
 <details>
+<summary> Amazon SQS</summary>
+<br>
+you can configure the message retention period to a value from 1 minute to 14 days. The default is 4 days. Once the message retention limit is reached, your messages are automatically deleted.
+<br>
+ A single Amazon SQS message queue can contain an unlimited number of messages. However, there is a 120,000 limit for the number of inflight messages for a standard queue and 20,000 for a FIFO queue. Messages are inflight after they have been received from the queue by a consuming component, but have not yet been deleted from the queue.
+<br>
+</details>
+
+ <details>
 <summary>simple</summary>
 <br>
 </details>
