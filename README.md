@@ -13,6 +13,12 @@ Amazon EMR is the industry-leading cloud big data platform for processing vast a
 <details>
 <summary>ASG</summary>
 <br>
+ <b>cooldown period</b>
+ - It ensures that the Auto Scaling group does not launch or terminate additional EC2 instances before the previous scaling activity takes effect.
+ - Its default value is 300 seconds.
+ 
+ 
+ 
  <details>
  <summary>(ASG) is not terminating an unhealthy Amazon EC2 instance</summary>
  <br>
