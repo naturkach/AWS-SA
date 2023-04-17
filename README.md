@@ -8,6 +8,9 @@ Amazon Kinesis Data Firehose is the easiest way to reliably load streaming data 
 <summary>Amazon EMR</summary>
 <br>
 Amazon EMR is the industry-leading cloud big data platform for processing vast amounts of data using open source tools such as Apache Spark, Apache Hive, Apache HBase, Apache Flink, Apache Hudi, and Presto. With EMR you can run Petabyte-scale analysis at less than half of the cost of traditional on-premises solutions and over 3x faster than standard Apache Spark. Amazon EMR uses Hadoop, an open-source framework, to distribute your data and processing across a resizable cluster of Amazon EC2 instances.
+<br>
+Additionally, you can use Amazon EMR to transform and move large amounts of data into and out of other AWS data stores and databases such as Amazon Simple Storage Service (Amazon S3) and Amazon DynamoDB.
+
 </details>
 
 <details>
@@ -39,8 +42,21 @@ RDS custom (for Oracle) - you can customize your database and OS - access instan
 <br>
 <b>Aurora native function</b>
 You can invoke an AWS Lambda function from an Amazon Aurora MySQL-Compatible Edition DB cluster with a native function or a stored procedure. This approach can be useful when you want to integrate your database running on Aurora MySQL with other AWS services. For example, you might want to capture data changes whenever a row in a table is modified in your database.
+<br>
+Q:  ensure that the database can automatically failover to an RDS instance to continue operating in the event of failure. The architecture should also be as highly available as possible.
+<br>
+You can run an Amazon RDS DB instance in several AZs with Multi-AZ deployment. Amazon automatically provisions and maintains a secondary standby DB instance in a different AZ. Your primary DB instance is synchronously replicated across AZs to the secondary instance to provide data redundancy, failover support, eliminate I/O freezes, and minimize latency spikes during systems backup.
 
 </details>
+
+<details>
+<summary>DynamoDB</summary>
+<br>
+Q: You have to design a solution to detect new entries in the DynamoDB table then automatically trigger a Lambda function to run some tests to verify the processed data.
+<br>
+enabling DynamoDB Streams to capture table activity and automatically trigger the Lambda function
+</details>
+
 
 <details>
 <summary>Rekognition</summary>
@@ -134,8 +150,8 @@ questions:
 <br>
 How can Amazon S3 invoke actions based on file activity within a bucket?
 - Amazon S3 Event Notifications
-
-
+<br>
+<b>CORS Configure the cross-origin resource sharing</b> will only allow objects from one domain (travel.cebu.com) to be loaded and accessible to a different domain (palawan.com). 
 
 </details>
 
