@@ -297,7 +297,7 @@ When using VPC Endpoints, what are the only two AWS services that have a Gateway
 - Amazon S3 and DynamoDB These two services have a VPC Gateway Endpoint (remember it), all the other ones have an Interface endpoint (powered by Private Link - means a private IP).
 
 - <b>Gateway endpoint</b> is a type of VPC endpoint that provides reliable connectivity to Amazon S3 and DynamoDB without requiring an internet gateway or a NAT device for your VPC. Instances in your VPC do not require public IP addresses to communicate with resources in the service.
-<br>When you create a Gateway endpoint, you can attach an <b>endpoint policy<b/> that controls access to the service to which you are connecting. You can modify the endpoint policy attached to your endpoint and add or remove the route tables used by the endpoint. An endpoint policy does not override or replace IAM user policies or service-specific policies (such as S3 bucket policies). It is a separate policy for controlling access from the endpoint to the specified service.
+<br>When you create a Gateway endpoint, you can attach an <b>endpoint policy</b> that controls access to the service to which you are connecting. You can modify the endpoint policy attached to your endpoint and add or remove the route tables used by the endpoint. An endpoint policy does not override or replace IAM user policies or service-specific policies (such as S3 bucket policies). It is a separate policy for controlling access from the endpoint to the specified service.
 
 
 </details>
