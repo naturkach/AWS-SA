@@ -144,7 +144,13 @@ Depending on your Region, your Amazon S3 website endpoints follow one of these t
 You can configure any access point to accept requests only from a virtual private cloud (VPC) to restrict Amazon S3 data access to a private network. You can also configure custom block public access settings for each access point.
  <br><br>
  Amazon S3 Transfer Acceleration can speed up content transfers to and from Amazon S3 by as much as 50-500% for long-distance transfer of larger objects. 
-<br><br>
+<br>
+<br>
+<b>S3 logs:</b>
+- Amazon S3 is integrated with AWS CloudTrail, a service that provides a record of actions taken by a user, role, or an AWS service in Amazon S3. CloudTrail captures a subset of API calls for Amazon S3 as events, including calls from the Amazon S3 console and code calls to the Amazon S3 APIs.
+<br> AWS CloudTrail logs provide a record of actions taken by a user, role, or an AWS service in Amazon S3
+- Amazon S3 server access logs provide detailed records for the requests that are made to an S3 bucket.
+
 <hr>
 questions:
 <br>
@@ -152,7 +158,7 @@ How can Amazon S3 invoke actions based on file activity within a bucket?
 - Amazon S3 Event Notifications
 <br>
 <b>CORS Configure the cross-origin resource sharing</b> will only allow objects from one domain (travel.cebu.com) to be loaded and accessible to a different domain (palawan.com). 
-
+<br>
 </details>
 
 
@@ -340,6 +346,13 @@ you can configure the message retention period to a value from 1 minute to 14 da
 <br>
  A single Amazon SQS message queue can contain an unlimited number of messages. However, there is a 120,000 limit for the number of inflight messages for a standard queue and 20,000 for a FIFO queue. Messages are inflight after they have been received from the queue by a consuming component, but have not yet been deleted from the queue.
 <br>
+</details>
+
+<details>
+<summary>Redshift</summary>
+<br>
+<b><Redshift Spectrum</b>
+Amazon Redshift also includes Redshift Spectrum, allowing you to directly run SQL queries against exabytes of unstructured data in Amazon S3. No loading or transformation is required, and you can use open data formats, including Avro, CSV, Grok, ORC, Parquet, RCFile, RegexSerDe, SequenceFile, TextFile, and TSV. Redshift Spectrum automatically scales query compute capacity based on the data being retrieved, so queries against Amazon S3 run fast, regardless of data set size.
 </details>
 
  <details>
