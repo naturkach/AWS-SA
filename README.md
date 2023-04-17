@@ -323,6 +323,29 @@ You can use Route 53 to perform three main functions in any combination: domain 
 - Geoproximity Routing - route traffic to your resources based on the geographic location of your users and your resources.
 - Geolocation Routing - lets you choose the resources that serve your traffic based on the geographic location of your users, meaning the location that DNS queries originate from.
 </details>
+ 
+ 
+<details>
+<summary>AWS Transit Gateway</summary>
+<br>
+ </b>
+is a service that enables customers to connect their Amazon Virtual Private Clouds (VPCs) and their on-premises networks to a single gateway.
+ <br>
+ Today, you can connect pairs of Amazon VPCs using peering. However, managing point-to-point connectivity across many Amazon VPCs without the ability to centrally manage the connectivity policies can be operationally costly and cumbersome. For on-premises connectivity, you need to attach your AWS VPN to each individual Amazon VPC. This solution can be time-consuming to build and hard to manage when the number of VPCs grows into the hundreds.
+<br>
+With AWS Transit Gateway, you only have to create and manage a single connection from the central gateway to each Amazon VPC, on-premises data center, or remote office across your network. Transit Gateway acts as a hub that controls how traffic is routed among all the connected networks which act like spokes. This hub and spoke model significantly simplifies management and reduces operational costs because each network only has to connect to the Transit Gateway and not to every other network. Any new VPC is simply connected to the Transit Gateway and is then automatically available to every other network that is connected to the Transit Gateway. This ease of connectivity makes it easy to scale your network as you grow.
+ <br>
+ It acts as a Regional virtual router for traffic flowing between your virtual private clouds (VPC) and VPN connections. A transit gateway scales elastically based on the volume of network traffic. Routing through a transit gateway operates at layer 3, where the packets are sent to a specific next-hop attachment, based on their destination IP addresses.
+
+A transit gateway attachment is both a source and a destination of packets. You can attach the following resources to your transit gateway:
+
+- One or more VPCs
+- One or more VPN connections
+- One or more AWS Direct Connect gateways
+- One or more transit gateway peering connections
+
+If you attach a transit gateway peering connection, the transit gateway must be in a different Region.
+</details>
 <hr>
 
 
@@ -345,7 +368,14 @@ is a service that enables you to easily and securely share AWS resources with an
 you can configure the message retention period to a value from 1 minute to 14 days. The default is 4 days. Once the message retention limit is reached, your messages are automatically deleted.
 <br>
  A single Amazon SQS message queue can contain an unlimited number of messages. However, there is a 120,000 limit for the number of inflight messages for a standard queue and 20,000 for a FIFO queue. Messages are inflight after they have been received from the queue by a consuming component, but have not yet been deleted from the queue.
-<br>
+
+ - <b>retention period in Amazon SQS </b> simply specifies if the Amazon SQS should delete the messages that have been in a queue for a certain period of time.
+ - <b>visibility timeout of SQS</b> https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html
+ 
+ <br>
+ Amazon SWF  https://tutorialsdojo.com/amazon-simple-workflow-amazon-swf/
+ 
+ 
 </details>
 
 <details>
