@@ -384,7 +384,22 @@ you can configure the message retention period to a value from 1 minute to 14 da
 Amazon Redshift also includes Redshift Spectrum, allowing you to directly run SQL queries against exabytes of unstructured data in Amazon S3. No loading or transformation is required, and you can use open data formats, including Avro, CSV, Grok, ORC, Parquet, RCFile, RegexSerDe, SequenceFile, TextFile, and TSV. Redshift Spectrum automatically scales query compute capacity based on the data being retrieved, so queries against Amazon S3 run fast, regardless of data set size.
 </details>
 
- <details>
+<details>
+<summary>AWS Config</summary>
+<br>
+AWS Config uses to evaluate whether your AWS resources comply with common best practices. You can leverage an AWS Config managed rule to check if any ACM certificates in your account are marked for expiration within the specified number of days.
+</details>
+
+<details>
+<summary>EC2</summary>
+<br>
+<b>Dedicated Hosts</b> - is a physical server with EC2 instance capacity fully dedicated to your use. Dedicated Hosts allow you to use your existing software licenses on EC2 instances.
+<br><b>Dedicated Instances</b> - Dedicated Instances that belong to different AWS accounts are physically isolated at a hardware level, even if those accounts are linked to a single-payer account. However, Dedicated Instances may share hardware with other instances from the same AWS account that are not Dedicated Instances.
+<br> - cheeper then dedic hosts, you can't use your licenses 
+</details>
+
+<details>
 <summary>simple</summary>
 <br>
 </details>
+
