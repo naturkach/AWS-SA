@@ -400,6 +400,6 @@ AWS Config uses to evaluate whether your AWS resources comply with common best p
 
 <details>
 <summary>simple</summary>
-<br>
+<br> count = 36
 </details>
 
