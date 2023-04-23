@@ -269,7 +269,7 @@ only one feature Memcached is better then Redis - it has multithreaded architect
 </details>
 </details>
 
-<hr>
+<hr>------------------------------------------------------------------------------------
 <h2><b>security</b></h2>
 <br>
 <details>
@@ -283,7 +283,11 @@ An AWS Organization is using Service Control Policies (SCP) for central control 
  - SCPs affect all users and roles in attached accounts, including the root user
 </details>
 
-<hr>
+<details>
+<summary>WAF</summary>
+<br>web application firewall that helps protect your web applications or APIs against common web exploits that may affect availability, compromise security, or consume excessive resources. AWS WAF gives you control over how traffic reaches your applications by enabling you to create security rules that block common attack patterns, such as SQL injection or cross-site scripting, and rules that filter out specific traffic patterns you define.
+</details>
+<hr>-------------------------------------------------------------------------------------
 
 <h2><b>NETWORK</b></h2>
 <br>
@@ -400,6 +404,6 @@ AWS Config uses to evaluate whether your AWS resources comply with common best p
 
 <details>
 <summary>simple</summary>
-<br> count = 36
+<br> count = 37
 </details>
 
