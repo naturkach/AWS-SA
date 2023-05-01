@@ -287,6 +287,20 @@ An AWS Organization is using Service Control Policies (SCP) for central control 
 <summary>WAF</summary>
 <br>web application firewall that helps protect your web applications or APIs against common web exploits that may affect availability, compromise security, or consume excessive resources. AWS WAF gives you control over how traffic reaches your applications by enabling you to create security rules that block common attack patterns, such as SQL injection or cross-site scripting, and rules that filter out specific traffic patterns you define.
 </details>
+
+
+<details>
+<summary>GuardDuty</summary>
+<br>
+Amazon GuardDuty can generate findings based on suspicious activities such as requests coming from known malicious IP addresses, changing of bucket policies/ACLs to expose an S3 bucket publicly, or suspicious API call patterns that attempt to discover misconfigured bucket permissions.
+</details>
+
+<details>
+<summary>AWS IAM Identity Center </summary>
+<br>
+AWS IAM Identity Center (successor to AWS Single Sign-On) provides single sign-on access for all of your AWS accounts and cloud applications. It connects with Microsoft Active Directory through AWS Directory Service to allow users in that directory to sign in to a personalized AWS access portal using their existing Active Directory user names and passwords. From the AWS access portal, users have access to all the AWS accounts and cloud applications that they have permission for.
+</details>
+
 <hr>-------------------------------------------------------------------------------------
 
 <h2><b>NETWORK</b></h2>
@@ -349,6 +363,17 @@ A transit gateway attachment is both a source and a destination of packets. You 
 
 If you attach a transit gateway peering connection, the transit gateway must be in a different Region.
 </details>
+
+<details>
+<summary>ELB</summary>
+<a href = 'https://tutorialsdojo.com/aws-elastic-load-balancing-elb/'> aws-elastic-load-balancing-elb</a>
+<br> 
+Network Load Balancer (NLB) - you can use the Bring Your Own IP (BYOIP) feature to use the trusted IPs as Elastic IP addresses (EIP) to a Network Load Balancer (NLB).
+
+<br>
+Application Load Balancer -  you can't assign an Elastic IP address to an Application Load Balancer. 
+</details>
+
 <hr>
 
 
@@ -404,6 +429,6 @@ AWS Config uses to evaluate whether your AWS resources comply with common best p
 
 <details>
 <summary>simple</summary>
-<br> count = 37
+<br> count = 39
 </details>
 
