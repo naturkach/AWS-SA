@@ -84,15 +84,23 @@ you can identify objects, people, text, scenes, and activities in images and vid
 <details>
 <summary>Guardduty</summary>
  <a href='https://aws.amazon.com/guardduty/'>https://aws.amazon.com/guardduty/</a><br>
-Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed
+Amazon GuardDuty is a threat detection service that continuously monitors your AWS accounts and workloads for malicious activity and delivers detailed security findings for visibility and remediation.
 <br>
 Amazon GuardDuty offers threat detection that enables you to continuously monitor and protect your AWS accounts, workloads, and data stored in Amazon S3. GuardDuty analyzes continuous streams of meta-data generated from your account and network activity found in AWS CloudTrail Events, Amazon VPC Flow Logs, and DNS Logs.
 </details>
 
 <details>
 <summary>Macie</summary>
-Macie is a data security service that uses machine learning (ML) and pattern matching to discover and help protect your sensitive data.
-<br>
+A security service that uses machine learning to automatically discover, classify, and protect sensitive data in AWS. Macie recognizes sensitive data such as personally identifiable information (PII) or intellectual property.
+<br><br>
+Amazon Macie allows you to achieve the following
+ 
+ - Identify and protect various data types, including PII, PHI, regulatory documents, API keys, and secret keys
+ - Verify compliance with automated logs that allow for instant auditing
+ - Identify changes to policies and access control lists
+ - Observe changes in user behavior and receive actionable alerts
+ - Receive notifications when data and account credentials leave protected zones
+ - Detect when large quantities of business-critical documents are shared internally and externally
 </details>
 
 <details>
@@ -426,7 +434,6 @@ you can configure the message retention period to a value from 1 minute to 14 da
 <details>
 <summary>Redshift</summary>
 <br>
-<b><Redshift Spectrum</b>
 Amazon Redshift also includes Redshift Spectrum, allowing you to directly run SQL queries against exabytes of unstructured data in Amazon S3. No loading or transformation is required, and you can use open data formats, including Avro, CSV, Grok, ORC, Parquet, RCFile, RegexSerDe, SequenceFile, TextFile, and TSV. Redshift Spectrum automatically scales query compute capacity based on the data being retrieved, so queries against Amazon S3 run fast, regardless of data set size.
 </details>
 
