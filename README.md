@@ -1,7 +1,24 @@
 <details>
-<summary>Kinesis Data Firehose</summary>
-<br>
-Amazon Kinesis Data Firehose is the easiest way to reliably load streaming data into data lakes, data stores, and analytics tools. It can capture, transform, and load streaming data into Amazon S3, Amazon Redshift, Amazon Elasticsearch Service, and Splunk, enabling near real-time analytics with existing business intelligence tools and dashboards you’re already using today. It is a fully managed service that automatically scales to match the throughput of your data and requires no ongoing administration.
+<summary>Kinesis</summary>
+ <details>
+  <summary>Data Streams</summary>
+  Scalable and durable real-time data streaming service.
+  <br>
+  - Any data source (servers, mobile devices, IoT devices, etc) that can call the Kinesis API to send data.
+  - Data consumers: Kinesis Data Analytics, Amazon EMR, Amazon EC2, AWS Lambda
+  <br>
+  Use cases: 
+  – Log and event data collection
+  – Real-time analytics
+  – Mobile data capture
+  – Gaming data feed
+ </details>
+ <details>
+  <summary>Kinesis Data Firehose</summary>
+  Capture, transform, and deliver streaming data into data lakes, data stores, and analytics services.
+ <br>
+ Amazon Kinesis Data Firehose is the easiest way to reliably load streaming data into data lakes, data stores, and analytics tools. It can capture, transform, and load  streaming data into Amazon S3, Amazon Redshift, Amazon Elasticsearch Service, and Splunk, enabling near real-time analytics with existing business intelligence tools and dashboards you’re already using today. It is a fully managed service that automatically scales to match the throughput of your data and requires no ongoing    administration.
+ </details>
 </details>
 
 <details>
