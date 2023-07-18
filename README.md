@@ -326,6 +326,23 @@ Amazon GuardDuty can generate findings based on suspicious activities such as re
 AWS IAM Identity Center (successor to AWS Single Sign-On) provides single sign-on access for all of your AWS accounts and cloud applications. It connects with Microsoft Active Directory through AWS Directory Service to allow users in that directory to sign in to a personalized AWS access portal using their existing Active Directory user names and passwords. From the AWS access portal, users have access to all the AWS accounts and cloud applications that they have permission for.
 </details>
 
+<details>
+<summary> SecurityGroup vs NetworkACL</summary>
+<br>
+SG:
+ 
+ - only allow
+ - per instance
+<br>
+
+ACL:
+
+ - rulles can allow or deny
+ - explicit deny at the end 
+ - only one acl per subnet
+
+<br>
+</details>
 <hr>-------------------------------------------------------------------------------------
 
 <h2><b>NETWORK</b></h2>
