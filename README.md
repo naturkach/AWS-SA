@@ -330,16 +330,18 @@ AWS IAM Identity Center (successor to AWS Single Sign-On) provides single sign-o
 <summary> SecurityGroup vs NetworkACL</summary>
 <br>
 SG:
- 
+ - Type (ssh-hpttp) -- protocol (tcp-udp) -- port range -- source -- description
  - only allow
  - per instance
 <br>
 
 ACL:
 
+ - rule number -- type (tcp/udp/all) -- protocol -- port range -- source -- allow-deny 
  - rulles can allow or deny
  - explicit deny at the end 
  - only one acl per subnet
+ - is created automatically with VPC (with allow all rule) 
 
 <br>
 </details>
